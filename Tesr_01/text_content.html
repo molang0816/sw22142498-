@@ -3,11 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Test_02</title>
+    <style>
+        div{
+            height: 100vh;
+        }
+        div[name=n1] h1 {background-color: orange;}
+        div[name=n2] h1 {background-color: rgb(255, 93, 228);}
+        div[name=n3] h1 {background-color: rgb(61, 255, 232);}
+    </style>
 </head>
 <body>
 
-    <h1>MNL</h1>
+    <h1>MNL WORKSPACE</h1>
     <hr>
     <table bgcolor="gray" border="1" cellspacing="5" width="400">
         <tr>
@@ -25,6 +33,24 @@
             <td>c3</td>
             <td>c4</td>
         </tr>
-    </table>    
+    </table>  
+    <hr>
+    <p>
+    <!--절대경로 링크 지정-->
+    <a href="http://www.google.com">google</a>
+    <a href="http://www.naver.com">네이버</a>
+    <!-- 상대경로 링크 지정 -->
+    </p>
+    <p>
+        아이디 경로 <br>
+        <a href="../1.htm">1.htm</a>
+        <a href="../1.htm">1.htm</a>
+        <a href="../1.htm">1.htm</a>
+        <a href="../1.htm">1.htm</a>
+    </p>
+    <div name="n1" id="1">N1</div>
+    <div name="n2" id="2">N2</div>
+    <div name="n3" id="3">N3</div>
+    <div name="n3" id="4">N4</div>
 </body>
 </html>
